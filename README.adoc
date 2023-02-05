@@ -1,0 +1,17 @@
+y2j - dead simple yaml to json converter
+----------------------------------------
+
+Usage:
+~~~~~
+[source, bash]
+$ echo "valid: yaml" | y2j
+{"valid":"yaml"}
+
+Build and store under you favorite path:
+[source, bash]
+$ go build -o y2j 
+$ cp y2j $PATH
+# Alternativly, your go path if its included in $PATH already:
+$ go install .
+
+
